@@ -1,0 +1,10 @@
+<map id="get_TIMER0Status" name="get_TIMER0Status">
+<area shape="rect" id="Node000001" title=" " alt="" coords="339,31,472,57"/>
+<area shape="rect" id="Node000002" href="$_softdelay_8c.html#a29cf71b95a6eefeab63e6b1f88c599e8" title=" " alt="" coords="103,5,291,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="323,37,291,33,292,27,324,31"/>
+<area shape="rect" id="Node000004" href="$_softdelay_8c.html#aef58ad4b8e05a4a6bb9a6e7b6a928466" title=" " alt="" coords="140,56,254,83"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="324,57,255,65,254,60,323,51"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a6288eba0f8e8ad3ab1544ad731eb7667" title=" " alt="" coords="5,31,55,57"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,38,56,43,55,38,90,32"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="123,61,55,50,55,45,124,56"/>
+</map>

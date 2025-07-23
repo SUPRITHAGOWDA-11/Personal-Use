@@ -1,0 +1,449 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1572 ]
+[d frameptr 6 ]
+"88 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+[e E3055 . `uc
+channel_AN0 0
+channel_AN2 2
+channel_Temp 29
+channel_DAC 30
+channel_FVR 31
+]
+"81 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+[e E3375 . `uc
+channel_AN0 0
+channel_AN2 2
+channel_Temp 29
+channel_DAC 30
+channel_FVR 31
+]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"66 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"67 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+[v _ADC1_Initialize ADC1_Initialize `(v  1 e 1 0 ]
+"115
+[v _ADC1_GetConversion ADC1_GetConversion `(us  1 e 2 0 ]
+"66 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"113
+[v _EUSART_Read EUSART_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART_Write EUSART_Write `(v  1 e 1 0 ]
+"153
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"52 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"61
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"71
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"64 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"73
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"134
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"138
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"79 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+[v _ReadWrite_HEFlash ReadWrite_HEFlash `(us  1 e 2 0 ]
+"144
+[v _Read_FLASH Read_FLASH `(v  1 e 1 0 ]
+"151
+[v _Unlock_FLASH Unlock_FLASH `(v  1 e 1 0 ]
+"159
+[v _Write_FLASH Write_FLASH `(v  1 e 1 0 ]
+"168
+[v _old_light_status old_light_status `(uc  1 e 1 0 ]
+"7 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+[v _SoftDelay_Start SoftDelay_Start `(v  1 e 1 0 ]
+"11
+[v _get_TIMER0Status get_TIMER0Status `(ul  1 e 4 0 ]
+"41
+[v _SoftDelay_IsOneMinuteOver SoftDelay_IsOneMinuteOver `(a  1 e 1 0 ]
+"50 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X/mcc_generated_files/tmr0.h
+[v _g_timer0OverflowCount g_timer0OverflowCount `VEul  1 e 4 0 ]
+"349 C:/Users/Sony/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.8.254/xc8\pic\include\proc\pic12f1572.h
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S183 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"372
+[s S192 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S197 . 1 `S183 1 . 1 0 `S192 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES197  1 e 1 @11 ]
+[s S322 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"501
+[u S330 . 1 `S322 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES330  1 e 1 @17 ]
+"590
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"912
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+[s S448 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"930
+[s S455 . 1 `uc 1 TRISA 1 0 :6:0 
+]
+[u S457 . 1 `S448 1 . 1 0 `S455 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES457  1 e 1 @140 ]
+"1075
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+[s S136 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1098
+[s S145 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S150 . 1 `S136 1 . 1 0 `S145 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES150  1 e 1 @149 ]
+"1215
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1274
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1332
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1467
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1487
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1507
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S34 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"1536
+[s S42 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S46 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S49 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[u S52 . 1 `S34 1 . 1 0 `S42 1 . 1 0 `S46 1 . 1 0 `S49 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES52  1 e 1 @157 ]
+"1596
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"1662
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @159 ]
+"1710
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S483 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"1728
+[s S490 . 1 `uc 1 LATA 1 0 :6:0 
+]
+[u S492 . 1 `S483 1 . 1 0 `S490 1 . 1 0 ]
+[v _LATAbits LATAbits `VES492  1 e 1 @268 ]
+"1912
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"2128
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"2240
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2287
+[v _PMADR PMADR `VEus  1 e 2 @401 ]
+"2334
+[v _PMDAT PMDAT `VEus  1 e 2 @403 ]
+"2361
+[v _PMDATH PMDATH `VEuc  1 e 1 @404 ]
+"2381
+[v _PMCON1 PMCON1 `VEuc  1 e 1 @405 ]
+"2437
+[v _PMCON2 PMCON2 `VEuc  1 e 1 @406 ]
+"2478
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"2498
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"2525
+[v _SPBRGL SPBRGL `VEuc  1 e 1 @411 ]
+"2545
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+"2565
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+[s S362 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"2582
+[u S371 . 1 `S362 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES371  1 e 1 @413 ]
+"2627
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+[s S341 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2644
+[u S350 . 1 `S341 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES350  1 e 1 @414 ]
+"2689
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"2741
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"2799
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"2852
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"2905
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"8576
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"9827
+[v _RD RD `VEb  1 e 0 @3240 ]
+"10109
+[v _WR WR `VEb  1 e 0 @3241 ]
+"10112
+[v _WREN WREN `VEb  1 e 0 @3242 ]
+"63 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+[v _last_saved_status last_saved_status `uc  1 s 1 last_saved_status ]
+[s S276 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+[u S281 . 1 `S276 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES281  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"58 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal timer0ReloadVal `VEuc  1 e 1 0 ]
+"59
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"54 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+[v _SaveInt SaveInt `uc  1 e 1 0 ]
+"66 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"76
+[v main@myTimer myTimer `ul  1 a 4 10 ]
+"74
+[v main@ldr2 ldr2 `us  1 a 2 8 ]
+"73
+[v main@ldr1 ldr1 `us  1 a 2 6 ]
+"75
+[v main@V_LightStatus V_LightStatus `a  1 a 1 14 ]
+"137
+} 0
+"168 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+[v _old_light_status old_light_status `(uc  1 e 1 0 ]
+{
+"170
+[v old_light_status@V_light_status_on V_light_status_on `uc  1 a 1 13 ]
+"184
+} 0
+"79
+[v _ReadWrite_HEFlash ReadWrite_HEFlash `(us  1 e 2 0 ]
+{
+[v ReadWrite_HEFlash@rw rw `uc  1 a 1 wreg ]
+"80
+[v ReadWrite_HEFlash@addr addr `us  1 a 2 7 ]
+"90
+[v ReadWrite_HEFlash@cnt cnt `uc  1 a 1 10 ]
+"79
+[v ReadWrite_HEFlash@rw rw `uc  1 a 1 wreg ]
+[v ReadWrite_HEFlash@data data `uc  1 p 1 2 ]
+[v ReadWrite_HEFlash@rowstartaddr rowstartaddr `us  1 p 2 3 ]
+"85
+[v ReadWrite_HEFlash@rw rw `uc  1 a 1 9 ]
+"128
+} 0
+"159
+[v _Write_FLASH Write_FLASH `(v  1 e 1 0 ]
+{
+"164
+} 0
+"151
+[v _Unlock_FLASH Unlock_FLASH `(v  1 e 1 0 ]
+{
+"157
+} 0
+"144
+[v _Read_FLASH Read_FLASH `(v  1 e 1 0 ]
+{
+[v Read_FLASH@address address `us  1 p 2 0 ]
+"149
+} 0
+"7 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+[v _SoftDelay_Start SoftDelay_Start `(v  1 e 1 0 ]
+{
+[v SoftDelay_Start@startTime startTime `*.4ul  1 a 1 wreg ]
+[v SoftDelay_Start@startTime startTime `*.4ul  1 a 1 wreg ]
+"9
+[v SoftDelay_Start@startTime startTime `*.4ul  1 a 1 4 ]
+"10
+} 0
+"41
+[v _SoftDelay_IsOneMinuteOver SoftDelay_IsOneMinuteOver `(a  1 e 1 0 ]
+{
+[v SoftDelay_IsOneMinuteOver@startCount startCount `*.4ul  1 a 1 wreg ]
+"43
+[v SoftDelay_IsOneMinuteOver@currentCount currentCount `ul  1 a 4 0 ]
+"41
+[v SoftDelay_IsOneMinuteOver@startCount startCount `*.4ul  1 a 1 wreg ]
+"43
+[v SoftDelay_IsOneMinuteOver@startCount startCount `*.4ul  1 a 1 4 ]
+"50
+} 0
+"11
+[v _get_TIMER0Status get_TIMER0Status `(ul  1 e 4 0 ]
+{
+"14
+} 0
+"50 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"59
+} 0
+"71
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"75
+} 0
+"73 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"134
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"136
+} 0
+"55 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"103
+} 0
+"61 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"66 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"172
+} 0
+"166
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"168
+} 0
+"174
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"176
+} 0
+"67 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+[v _ADC1_Initialize ADC1_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"115
+[v _ADC1_GetConversion ADC1_GetConversion `(us  1 e 2 0 ]
+{
+[v ADC1_GetConversion@channel channel `E3055  1 a 1 wreg ]
+[v ADC1_GetConversion@channel channel `E3055  1 a 1 wreg ]
+"118
+[v ADC1_GetConversion@channel channel `E3055  1 a 1 3 ]
+"136
+} 0
+"52 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"63
+} 0
+"64 C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"68
+} 0

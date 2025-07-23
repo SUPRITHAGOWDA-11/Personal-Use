@@ -1,0 +1,753 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+idloc IDLOC 5 8000 8000 4 2 1
+reset_vec CODE 0 0 0 1 2 1
+end_init CODE 0 13 13 1 2 1
+config CONFIG 4 8007 8007 2 2 1
+$dist/default/production\MOTION_DETECTION_PRO.X.production.o
+cinit CODE 0 14 14 1B 2 1
+idloc IDLOC 5 8000 8000 4 2 1
+text1 CODE 0 19C 19C 23 2 1
+text2 CODE 0 E0 E0 75 2 1
+text3 CODE 0 280 280 7 2 1
+text4 CODE 0 24A 24A C 2 1
+text5 CODE 0 256 256 C 2 1
+text6 CODE 0 23A 23A 10 2 1
+text7 CODE 0 155 155 47 2 1
+text8 CODE 0 26D 26D A 2 1
+text9 CODE 0 227 227 13 2 1
+text10 CODE 0 2A6 2A6 4 2 1
+text11 CODE 0 213 213 14 2 1
+text12 CODE 0 28E 28E 6 2 1
+text13 CODE 0 1FB 1FB 18 2 1
+text14 CODE 0 287 287 7 2 1
+text15 CODE 0 1BF 1BF 22 2 1
+text16 CODE 0 294 294 6 2 1
+text17 CODE 0 29A 29A 6 2 1
+text18 CODE 0 2A0 2A0 6 2 1
+text19 CODE 0 277 277 9 2 1
+text20 CODE 0 1E1 1E1 1A 2 1
+text22 CODE 0 262 262 B 2 1
+nvBANK0 BANK0 1 3B 3B 9 1 1
+maintext CODE 0 2F 2F B1 2 1
+cstackCOMMON COMMON 1 70 70 E 1 1
+cstackBANK0 BANK0 1 20 20 F 1 1
+intentry CODE 0 4 4 F 2 1
+bssBANK0 BANK0 1 2F 2F C 1 1
+idataBANK0 CODE 0 2AA 2AA 3 2 1
+dataBANK0 BANK0 1 44 44 3 1 1
+config CONFIG 4 8007 8007 2 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 47-6F 1
+RAM A0-EF 1
+RAM 120-16F 1
+BANK0 47-6F 1
+BANK1 A0-EF 1
+BANK2 120-16F 1
+CONST 1-3 2
+CONST 2AD-7FF 2
+ENTRY 1-3 2
+ENTRY 2AD-7FF 2
+SFR10 500-56F 1
+SFR11 580-5EF 1
+SFR12 600-66F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+CODE 1-3 2
+CODE 2AD-7FF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-1EF 1
+SFR4 200-26F 1
+SFR5 280-2EF 1
+SFR6 300-36F 1
+SFR7 380-3EF 1
+SFR8 400-46F 1
+SFR9 480-4EF 1
+BIGRAM 2000-20EF 1
+STRCODE 1-3 2
+STRCODE 2AD-7FF 2
+STRING 1-3 2
+STRING 2AD-7FF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\MOTION_DETECTION_PRO.X.production.o
+14 cinit CODE >3293:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+14 cinit CODE >3296:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+14 cinit CODE >3334:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+17 cinit CODE >3335:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+18 cinit CODE >3336:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+1B cinit CODE >3337:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+1C cinit CODE >3338:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+1F cinit CODE >3339:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+20 cinit CODE >3344:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+21 cinit CODE >3345:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+22 cinit CODE >3346:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+23 cinit CODE >3347:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+24 cinit CODE >3348:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+25 cinit CODE >3349:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+26 cinit CODE >3350:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+27 cinit CODE >3351:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+28 cinit CODE >3352:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+29 cinit CODE >3353:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+2A cinit CODE >3354:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+2B cinit CODE >3355:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+2C cinit CODE >3361:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+2C cinit CODE >3363:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+2D cinit CODE >3364:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+2E cinit CODE >3365:C:\Users\Sony\AppData\Local\Temp\xcAs9rg.s
+4 intentry CODE >52:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/interrupt_manager.c
+6 intentry CODE >55:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/interrupt_manager.c
+E intentry CODE >57:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/interrupt_manager.c
+11 intentry CODE >63:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/interrupt_manager.c
+262 text22 CODE >64:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+262 text22 CODE >66:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+26B text22 CODE >67:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+26C text22 CODE >68:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+1E1 text20 CODE >115:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+1E2 text20 CODE >118:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+1EC text20 CODE >121:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+1ED text20 CODE >124:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+1F0 text20 CODE >127:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+1F2 text20 CODE >130:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+1F2 text20 CODE >132:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+1F6 text20 CODE >135:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+1FA text20 CODE >136:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+277 text19 CODE >67:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+277 text19 CODE >72:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+27A text19 CODE >75:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+27B text19 CODE >78:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+27C text19 CODE >81:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+27D text19 CODE >84:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+27F text19 CODE >86:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/adc1.c
+2A0 text18 CODE >174:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+2A0 text18 CODE >175:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+2A5 text18 CODE >176:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+29A text17 CODE >166:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+29A text17 CODE >167:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+29F text17 CODE >168:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+294 text16 CODE >170:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+294 text16 CODE >171:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+299 text16 CODE >172:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+1BF text15 CODE >66:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+1BF text15 CODE >71:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+1C2 text15 CODE >74:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+1C4 text15 CODE >77:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+1C6 text15 CODE >80:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+1C8 text15 CODE >83:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+1C9 text15 CODE >86:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+1D0 text15 CODE >87:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+1D7 text15 CODE >88:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+1DE text15 CODE >90:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+1E0 text15 CODE >92:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/eusart.c
+287 text14 CODE >61:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+287 text14 CODE >64:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+28A text14 CODE >66:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+28B text14 CODE >68:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+28D text14 CODE >69:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+1FB text13 CODE >55:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+1FB text13 CODE >60:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+1FD text13 CODE >65:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+200 text13 CODE >70:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+203 text13 CODE >75:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+205 text13 CODE >76:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+207 text13 CODE >81:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+209 text13 CODE >86:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+20C text13 CODE >91:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+20F text13 CODE >96:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+212 text13 CODE >103:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/pin_manager.c
+28E text12 CODE >134:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+28E text12 CODE >135:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+293 text12 CODE >136:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+213 text11 CODE >73:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+213 text11 CODE >78:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+218 text11 CODE >81:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+21B text11 CODE >84:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+21D text11 CODE >87:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+21E text11 CODE >90:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+21F text11 CODE >93:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+226 text11 CODE >94:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/tmr0.c
+2A6 text10 CODE >71:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+2A6 text10 CODE >74:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+2A9 text10 CODE >75:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+227 text9 CODE >50:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+227 text9 CODE >53:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+22A text9 CODE >54:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+22D text9 CODE >55:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+230 text9 CODE >56:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+233 text9 CODE >57:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+236 text9 CODE >58:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+239 text9 CODE >59:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\mcc_generated_files/mcc.c
+26D text8 CODE >11:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+26D text8 CODE >13:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+276 text8 CODE >14:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+155 text7 CODE >41:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+157 text7 CODE >43:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+163 text7 CODE >44:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+18C text7 CODE >46:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+198 text7 CODE >47:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+19A text7 CODE >49:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+19B text7 CODE >50:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+23A text6 CODE >7:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+23B text6 CODE >9:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+249 text6 CODE >10:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\Softdelay.c
+256 text5 CODE >144:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+256 text5 CODE >146:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+25B text5 CODE >147:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+25D text5 CODE >148:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+261 text5 CODE >149:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+24A text4 CODE >151:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+24A text4 CODE >152:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+24D text4 CODE >153:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+24F text4 CODE >154:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+250 text4 CODE >155:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+254 text4 CODE >156:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+255 text4 CODE >157:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+280 text3 CODE >159:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+280 text3 CODE >162:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+283 text3 CODE >163:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+286 text3 CODE >164:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+E0 text2 CODE >79:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+E1 text2 CODE >85:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+E6 text2 CODE >86:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+EA text2 CODE >87:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+EB text2 CODE >88:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+F1 text2 CODE >93:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+F3 text2 CODE >94:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+FA text2 CODE >96:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+FF text2 CODE >97:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+106 text2 CODE >98:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+10D text2 CODE >99:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+10E text2 CODE >100:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+10F text2 CODE >101:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+112 text2 CODE >102:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+113 text2 CODE >104:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+117 text2 CODE >107:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+119 text2 CODE >107:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+11D text2 CODE >109:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+11F text2 CODE >110:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+123 text2 CODE >111:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+126 text2 CODE >113:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+12E text2 CODE >114:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+12F text2 CODE >115:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+130 text2 CODE >116:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+134 text2 CODE >118:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+134 text2 CODE >119:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+13F text2 CODE >120:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+141 text2 CODE >121:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+142 text2 CODE >123:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+146 text2 CODE >126:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+14D text2 CODE >127:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+154 text2 CODE >128:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+19C text1 CODE >168:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+19C text1 CODE >170:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+1A7 text1 CODE >172:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+1AC text1 CODE >174:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+1AE text1 CODE >175:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+1B9 text1 CODE >176:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+1BA text1 CODE >179:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+1BD text1 CODE >181:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+1BD text1 CODE >183:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+1BE text1 CODE >184:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\PIC12_HEFlash.c
+2F maintext CODE >66:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+2F maintext CODE >69:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+32 maintext CODE >71:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+34 maintext CODE >73:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+34 maintext CODE >74:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+34 maintext CODE >76:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+3D maintext CODE >78:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+41 maintext CODE >78:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+49 maintext CODE >81:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+52 maintext CODE >82:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+5A maintext CODE >83:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+63 maintext CODE >84:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+6B maintext CODE >88:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+6F maintext CODE >88:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+71 maintext CODE >88:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+78 maintext CODE >88:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+7A maintext CODE >88:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+7E maintext CODE >90:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+83 maintext CODE >93:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+85 maintext CODE >94:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+88 maintext CODE >96:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+8C maintext CODE >99:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+92 maintext CODE >101:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+9C maintext CODE >102:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+9F maintext CODE >106:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+A4 maintext CODE >106:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+A8 maintext CODE >108:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+AA maintext CODE >109:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+AC maintext CODE >112:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+B1 maintext CODE >114:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+BA maintext CODE >115:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+BD maintext CODE >121:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+C2 maintext CODE >123:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+C4 maintext CODE >124:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+C6 maintext CODE >127:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+CB maintext CODE >129:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+D5 maintext CODE >135:C:\Users\Sony\Desktop\MPLAB Program\MOTION_DETECTION_PRO.X\main.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 0 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__Hspace_0 2AD 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 10010 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+_SaveInt 39 0 BANK0 1 bssBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+_RD CA8 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_WR CA9 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_WDT_Initialize 554 0 CODE 0 text10 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+_LATA 10C 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_TMR0 15 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_WPUA 20C 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_WREN CAA 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+_main 5E 0 CODE 0 maintext dist/default/production\MOTION_DETECTION_PRO.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+start 26 0 CODE 0 init C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+_TMR0_InterruptHandler 41 0 BANK0 1 nvBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_ADC1_Initialize 4EE 0 CODE 0 text19 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_Unlock_FLASH 494 0 CODE 0 text4 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_TMR0_SetInterruptHandler 528 0 CODE 0 text12 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_EUSART_SetFramingErrorHandler 540 0 CODE 0 text17 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_EUSART_SetOverrunErrorHandler 534 0 CODE 0 text16 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_OPTION_REGbits 95 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__end_of_EUSART_Initialize 3C2 0 CODE 0 text15 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+__end_of_Write_FLASH 50E 0 CODE 0 text3 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+TMR0_SetInterruptHandler@InterruptHandler 70 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+_Read_FLASH 4AC 0 CODE 0 text5 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+_EUSART_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_EUSART_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+SoftDelay_IsOneMinuteOver@startCount 24 0 BANK0 1 cstackBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+?_ReadWrite_HEFlash 72 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_ADCON0 9D 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_ADCON1 9E 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_ADCON2 9F 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_ADRESH 9C 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_ADRESL 9B 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_ANSELA 18C 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_APFCON 11D 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_get_TIMER0Status 4DA 0 CODE 0 text8 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_TMR0_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_BORCON 116 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_INTERRUPT_InterruptManager 26 0 CODE 0 intentry dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_g_timer0OverflowCount 33 0 BANK0 1 bssBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_last_saved_status 46 0 BANK0 1 dataBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_Unlock_FLASH 4AC 0 CODE 0 text4 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+__LnvBANK0 0 0 ABS 0 nvBANK0 -
+_INLVLA 38C 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_INTCON B 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_Read_FLASH 4C4 0 CODE 0 text5 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_OPTION_REG 95 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+___stacklo 0 0 ABS 0 - C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+_EUSART_Initialize 37E 0 CODE 0 text15 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+Read_FLASH@address 70 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_PIN_MANAGER_Initialize 3F6 0 CODE 0 text13 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+start_initialization 28 0 CODE 0 cinit dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_ODCONA 28C 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_EUSART_SetErrorHandler 540 0 CODE 0 text18 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_OSCCON 99 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_PMCON1 195 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_PMCON2 196 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_PMDATH 194 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_TRISAbits 8C 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+EUSART_SetOverrunErrorHandler@interruptHandler 70 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_SYSTEM_Initialize 474 0 CODE 0 text9 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_SPBRGH 19C 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_SPBRGL 19B 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_get_TIMER0Status 4EE 0 CODE 0 text8 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_WDTCON 97 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+main@myTimer 2A 0 BANK0 1 cstackBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 BANK3 1 bank3 -
+__Hbank4 0 0 BANK4 1 bank4 -
+__Hbank5 0 0 BANK5 1 bank5 -
+__Hbank6 0 0 BANK6 1 bank6 -
+__Hbank7 0 0 BANK7 1 bank7 -
+__Hbank8 0 0 BANK8 1 bank8 -
+__Hbank9 0 0 BANK9 1 bank9 -
+__Hcinit 5E 0 CODE 0 cinit -
+__Hidloc 10008 0 IDLOC 5 idloc -
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+__Hbank10 0 0 BANK10 1 bank10 -
+__Hbank11 0 0 BANK11 1 bank11 -
+__Hbank12 0 0 BANK12 1 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10012 0 CONFIG 4 config -
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 BANK3 1 bank3 -
+__Lbank4 0 0 BANK4 1 bank4 -
+__Lbank5 0 0 BANK5 1 bank5 -
+__Lbank6 0 0 BANK6 1 bank6 -
+__Lbank7 0 0 BANK7 1 bank7 -
+__Lbank8 0 0 BANK8 1 bank8 -
+__Lbank9 0 0 BANK9 1 bank9 -
+__Lcinit 28 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 5 idloc -
+EUSART_SetErrorHandler@interruptHandler 70 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+_INTCONbits B 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hheap 0 0 HEAP 7 heap -
+__Hinit 26 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Lheap 0 0 HEAP 7 heap -
+__Linit 26 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+__pnvBANK0 3B 0 BANK0 1 nvBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+int$flags 7E 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_GIE 5F 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__S0 2AD 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+_SYSTEM_Initialize 44E 0 CODE 0 text9 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_SoftDelay_Start 494 0 CODE 0 text6 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__HnvBANK0 0 0 ABS 0 nvBANK0 -
+__Lintentry 8 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+SoftDelay_Start@startTime 74 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__pdataBANK0 44 0 BANK0 1 dataBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+_INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_RCSTAbits 19D 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+EUSART_SetFramingErrorHandler@interruptHandler 70 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_SoftDelay_IsOneMinuteOver 338 0 CODE 0 text7 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_TMR0_ISR 4C4 0 CODE 0 text22 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext10 54C 0 CODE 0 text10 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext11 426 0 CODE 0 text11 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext12 51C 0 CODE 0 text12 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext13 3F6 0 CODE 0 text13 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext14 50E 0 CODE 0 text14 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext15 37E 0 CODE 0 text15 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext16 528 0 CODE 0 text16 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext17 534 0 CODE 0 text17 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext18 540 0 CODE 0 text18 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext19 4EE 0 CODE 0 text19 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext20 3C2 0 CODE 0 text20 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext22 4C4 0 CODE 0 text22 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+ReadWrite_HEFlash@addr 77 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+ReadWrite_HEFlash@data 72 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_PIN_MANAGER_Initialize 426 0 CODE 0 text13 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_TMR0_Initialize 44E 0 CODE 0 text11 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_BAUDCON 19F 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Lbank10 0 0 BANK10 1 bank10 -
+__Lbank11 0 0 BANK11 1 bank11 -
+__Lbank12 0 0 BANK12 1 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__pmaintext 5E 0 CODE 0 maintext dist/default/production\MOTION_DETECTION_PRO.X.production.o
+ReadWrite_HEFlash@rowstartaddr 73 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Lbigram 0 0 ABS 0 bigram -
+__end_of_EUSART_SetErrorHandler 54C 0 CODE 0 text18 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+__end_of_ReadWrite_HEFlash 2AA 0 CODE 0 text2 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_TMR0_ISR 4DA 0 CODE 0 text22 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_LATAbits 10C 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+main@ldr1 26 0 BANK0 1 cstackBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+main@ldr2 28 0 BANK0 1 cstackBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_SoftDelay_Start 474 0 CODE 0 text6 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_TMR0_SetInterruptHandler 51C 0 CODE 0 text12 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_EUSART_FramingErrorHandler 3F 0 BANK0 1 nvBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_EUSART_OverrunErrorHandler 3D 0 BANK0 1 nvBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+?_ADC1_GetConversion 70 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_OSCTUNE 98 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_ADCON0bits 9D 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+?_get_TIMER0Status 70 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_EUSART_ErrorHandler 3B 0 BANK0 1 nvBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+ADC1_GetConversion@channel 73 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+_PIR1bits 11 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Lend_init 26 0 CODE 0 end_init -
+_EUSART_DefaultErrorHandler 0 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_Write_FLASH 500 0 CODE 0 text3 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_EUSART_SetFramingErrorHandler 534 0 CODE 0 text17 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_EUSART_SetOverrunErrorHandler 528 0 CODE 0 text16 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+SoftDelay_IsOneMinuteOver@currentCount 20 0 BANK0 1 cstackBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+end_of_initialization 58 0 CODE 0 cinit dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_TMR0_Initialize 426 0 CODE 0 text11 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Hintentry 26 0 CODE 0 intentry -
+_old_light_status 338 0 CODE 0 text1 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+__Hreset_vec 2 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__ptext1 338 0 CODE 0 text1 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext2 1C0 0 CODE 0 text2 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext3 500 0 CODE 0 text3 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext4 494 0 CODE 0 text4 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext5 4AC 0 CODE 0 text5 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext6 474 0 CODE 0 text6 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext7 2AA 0 CODE 0 text7 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext8 4DA 0 CODE 0 text8 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__ptext9 44E 0 CODE 0 text9 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+_ReadWrite_HEFlash 1C0 0 CODE 0 text2 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_SLRCONA 30C 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+___heap_hi 0 0 ABS 0 - C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+___heap_lo 0 0 ABS 0 - C:\Users\Sony\AppData\Local\Temp\xcAs9rg.o
+__end_of__initialization 58 0 CODE 0 cinit dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+ReadWrite_HEFlash@rw 79 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_timer0ReloadVal 43 0 BANK0 1 nvBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__pidataBANK0 554 0 CODE 0 idataBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_TXSTAbits 19E 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Hend_init 28 0 CODE 0 end_init -
+ReadWrite_HEFlash@cnt 7A 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_main 1C0 0 CODE 0 maintext dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_ADC1_GetConversion 3F6 0 CODE 0 text20 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_old_light_status 37E 0 CODE 0 text1 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_PMADR 191 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_PMDAT 193 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_RCREG 199 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_RCSTA 19D 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_TRISA 8C 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_TXREG 19A 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_TXSTA 19E 0 ABS 0 - dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_eusartRxLastError 3A 0 BANK0 1 bssBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_WDT_Initialize 54C 0 CODE 0 text10 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__pintentry 8 0 CODE 0 intentry dist/default/production\MOTION_DETECTION_PRO.X.production.o
+old_light_status@V_light_status_on 7D 0 COMMON 1 cstackCOMMON dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__end_of_OSCILLATOR_Initialize 51C 0 CODE 0 text14 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__initialization 28 0 CODE 0 cinit dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__end_of_ADC1_Initialize 500 0 CODE 0 text19 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+main@V_LightStatus 2E 0 BANK0 1 cstackBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+__pbssBANK0 2F 0 BANK0 1 bssBANK0 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_SoftDelay_IsOneMinuteOver 2AA 0 CODE 0 text7 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_ADC1_GetConversion 3C2 0 CODE 0 text20 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+_OSCILLATOR_Initialize 50E 0 CODE 0 text14 dist/default/production\MOTION_DETECTION_PRO.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 27 1
+intentry 0 4 8 2A9 2
+reset_vec 0 0 0 1 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
